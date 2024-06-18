@@ -78,29 +78,29 @@ const App = () => {
       <Topbar />
       <Header />
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/about" exact element={<AboutUs />} />
-        <Route path="/gallery" exact element={<Gallery />} />
-        <Route path="/contact" exact element={<Contact />} />
-        <Route path="/service" exact element={<Services />} />
-        <Route path="/products/food/products" exact element={<FoodProducts />} />
-        <Route path="/products/building/materials" exact element={<BuildingMaterials />} />
-        <Route path="/products/fertilisers" exact element={<Fertilisers />} />
-        <Route path="/products/onion-powder" exact element={<OnionPowder />} />
-        <Route path="/products/egg-powder" exact element={<EggPowder />} />
-        <Route path="/products/moringa-powder" exact element={<MoringaPowder />} />
-        <Route path="/products/garlic-powder" exact element={<GarlicPowder />} />
-        <Route path="/products/potato-powder" exact element={<PotatoPowder />} />
-        <Route path="/products/zinc-sulphate" exact element={<ZincSalfateMonohydrate />} />
-        <Route path="/products/zinc-heptahydrate" exact element={<ZincSulphateHeptahydrate />} />
-        <Route path="/products/copper-sulphate" exact element={<CopperSulphate />} />
-        <Route path="/products/cow-dung" exact element={<CowDungs />} />
-        <Route path="/products/laminated-sheets" exact element={<LaminatedSheets />} />
-        <Route path="/products/wooden-door" exact element={<WoodenDoors />} />
-        <Route path="/products/tiles" exact element={<Tiles />} />
-        <Route path="/products/basin" exact element={<Basin />} />
-        <Route path="/products/toilets" exact element={<Toilets />} />
-        <Route path="/products/PVCDoors" exact element={<PVCDoors />} />
+        <Route path="/hextrade" exact element={<Home />} />
+        <Route path="/hextrade/about" exact element={<AboutUs />} />
+        <Route path="/hextrade/gallery" exact element={<Gallery />} />
+        <Route path="/hextrade/contact" exact element={<Contact />} />
+        <Route path="/hextrade/service" exact element={<Services />} />
+        <Route path="/hextrade/products/food/products" exact element={<FoodProducts />} />
+        <Route path="/hextrade/products/building/materials" exact element={<BuildingMaterials />} />
+        <Route path="/hextrade/products/fertilisers" exact element={<Fertilisers />} />
+        <Route path="/hextrade/products/onion-powder" exact element={<OnionPowder />} />
+        <Route path="/hextrade/products/egg-powder" exact element={<EggPowder />} />
+        <Route path="/hextrade/products/moringa-powder" exact element={<MoringaPowder />} />
+        <Route path="/hextrade/products/garlic-powder" exact element={<GarlicPowder />} />
+        <Route path="/hextrade/products/potato-powder" exact element={<PotatoPowder />} />
+        <Route path="/hextrade/products/zinc-sulphate" exact element={<ZincSalfateMonohydrate />} />
+        <Route path="/hextrade/products/zinc-heptahydrate" exact element={<ZincSulphateHeptahydrate />} />
+        <Route path="/hextrade/products/copper-sulphate" exact element={<CopperSulphate />} />
+        <Route path="/hextrade/products/cow-dung" exact element={<CowDungs />} />
+        <Route path="/hextrade/products/laminated-sheets" exact element={<LaminatedSheets />} />
+        <Route path="/hextrade/products/wooden-door" exact element={<WoodenDoors />} />
+        <Route path="/hextrade/products/tiles" exact element={<Tiles />} />
+        <Route path="/hextrade/products/basin" exact element={<Basin />} />
+        <Route path="/hextrade/products/toilets" exact element={<Toilets />} />
+        <Route path="/hextrade/products/PVCDoors" exact element={<PVCDoors />} />
       </Routes>
       <FooterSection />
     </div>
